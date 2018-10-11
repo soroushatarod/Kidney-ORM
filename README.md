@@ -1,2 +1,2 @@
 # Mango
-A fast and Simple PHP MVC Framework
+A simple and easy to use ORM
