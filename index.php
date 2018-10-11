@@ -6,15 +6,9 @@ include_once 'vendor/autoload.php';
 include 'Entity/Users.php';
 $config = include_once 'database.php';
 
-
-//Kidney::i()->boot($config);
-
 $result  = Kidney::instance()->boot($config);
 
-
 $user = new Users();
-
 $user->firstName = 'Soroush';
-$user->lastName = 'Ali';
-
+$user->lastName = 'Atarod';
 $user->create();
