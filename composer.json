@@ -1,0 +1,22 @@
+{
+    "name": "kidney/kidney",
+    "description": "A simple, fast, easy to use ORM",
+    "keywords": ["orm", "active record", "database"],
+    "license": "MIT",
+    "authors": [{
+            "name": "Soroush Atarod",
+            "email": "soroush.atarod@outlook.com"
+
+        }],
+    "require": {
+        "php": ">=5.6",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Kidney": "Kidney"
+        }
+    },
+    "minimum-stability": "dev"
+
+}
